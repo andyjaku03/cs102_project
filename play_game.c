@@ -15,7 +15,7 @@ void play_game()
   clear_logic_board();
 
   //place user's ships 5,4,3,2,2
-  printf("The game begins now: Here are the rules:\n\tYou will be asked to place 5 ships\n\tThe first ship will have a length of 5\n\tThe second a length of 4\n\tThe third a length of 3\n\tThe fourth and fifth will both be of length 2\nOnce you've placed your ships a computer will randomly place their ships, and it's your job to hit all their ships before they hit yours.\nIf you guess a correct position a 'X' will pop up under the CPU's board, meaning a piece of a ship is located there.\nIf you missed, a 'O' will appear signifying that the position is empty. Try to find all the CPU's ships, goodluck!\n");
+  printf("The game begins now: Here are the rules:\n\tYou will be asked to place 5 ships\n\tThe first ship will have a length of 5\n\tThe second a length of 4\n\tThe third a length of 3\n\tThe fourth and fifth will both be of length 2\nOnce you've placed your ships a computer will randomly place their ships.\nIt's your job to hit all their ships before they hit yours.\nIf you guess a correct position a 'X' will pop up under the CPU's board, meaning a piece of a ship is located there.\nIf you missed, a 'O' will appear signifying that the position is empty. Try to find all the CPU's ships, goodluck!\n");
   char understood [50];
     printf("Do you understand\n");
   scanf("%s", understood); 
