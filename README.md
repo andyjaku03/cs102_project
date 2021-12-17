@@ -16,6 +16,24 @@ Describe your project's source code in terms of algorithms and data structures.
 
 -Our code heavilty utilizies 2 dimmensional arrays, boolean logic, random number generation and loops. Both boards are 2-d arrays containg characters. In order to place those characters into the 2-d array we created various boolean logic statements and various loops (including for and while) to ensure that the user and cpu are placing ships in the correct way. Furthermore, we use random number generators to make each game feel different, making the CPU guess randomly and altering the layout of the ships per game (*As of right now we have 5 preset randomized CPU ship locations due to a difficulty in creating an entirely randomized system*). We also take advantage of multiple .c and .h files to house different functions and organize our code. 
 
+Credit for parts of the code:
+
+main.h and main.c - Andy and Azam
+
+Draw_board - Azam
+
+Clear_board - Azam
+
+Place_ship - Andy
+
+Cpu_place_ship - Andy*(see explanation below)
+
+Hit_spot - Andy
+
+Cpu_hit_spot - Andy
+
+*While the pseudo random code with the presets was made by Andy, Azam worked on developing a code that would make truly random placements for the ships. However this proved too buggy. That code is left commented out within the Cpu_place_ship.c file.
+
 Screen Shots of Working Program
 Add images here like this: Example image
 
