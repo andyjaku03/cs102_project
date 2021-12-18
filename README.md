@@ -52,3 +52,6 @@ Example of Loss-Screen
 
 Link to YouTube video recording of presentation and code walk through.
 https://github.com/andyjaku03/cs102_project
+
+***sorry I forgot to update this last night!!
+https://www.youtube.com/watch?v=er28lt87jEs
